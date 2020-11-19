@@ -1,8 +1,16 @@
 import styled from 'styled-components'
 
+const ContainerMain = styled.div`
+    display:flex;
+    width:100%;
+    justify-content:center;
+`
+
 const Wrapper = styled.div`
     display:flex;
     justify-content:center;
+    flex-direction:column;
+    width:80%;
     
     ul{
         width:80%;
@@ -19,4 +27,8 @@ const Wrapper = styled.div`
         }
     }
 `
-export default Wrapper
+const WrapperImage = styled.div`
+    padding:20px;
+
+`
+export {Wrapper, ContainerMain, WrapperImage}

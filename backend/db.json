@@ -1,23 +1,20 @@
 {
-  "video": [
+  "categorias": [
     {
       "id": 1,
-      "name": "Exercicios de Pilates",
+      "name": "breno",
       "url": "https://grupovoll.com.br/loja/wp-content/uploads/2020/06/circuito_tf-250x250.jpg",
-      "episodios": [
+      "videos": [
         {
+        "episodio": {
           "id": 1,
           "ep-name": "Episodio 1",
           "descricao": "Tenha acesso à uma verdadeira Masterclass Prática onde os gigantes Keyner Luiz (Treinamento Funcional e MIT) e Thalyssa Larangeiras (Pilates Avançado) ensinam um circuito completo, do Básico ao Avançado, de Treinamento Funcional",
           "url": "https://www.w3schools.com/tags/movie.mp4"
-        },
-        {
-          "id": 2,
-          "ep-name": "Episodio 2",
-          "descricao": "Tenha acesso à uma verdadeira Masterclass Prática onde os gigantes Keyner Luiz (Treinamento Funcional e MIT) e Thalyssa Larangeiras (Pilates Avançado) ensinam um circuito completo, do Básico ao Avançado, de Treinamento Funcional",
-          "url": "https://www.w3schools.com/tags/movie.mp4"
         }
-      ]
+      }
+        ]
+      
     },
     {
       "id": 2,

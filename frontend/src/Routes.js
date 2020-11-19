@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import CreateEpisodios from "./pages/create-episodios";
 import CreateProdutos from "./pages/create-produtos";
 
 import Home from './pages/home'
@@ -16,7 +17,8 @@ export default function Routes(){
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/registrar" component={Login} />
-                <Route exact path="/criar" component={CreateProdutos} />
+                <Route exact path="/criar-categorias" component={CreateProdutos} />
+                <Route exact path="/criar-episodio" component={CreateEpisodios} />
             </Switch>
         </Router>
     )
