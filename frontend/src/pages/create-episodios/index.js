@@ -18,7 +18,7 @@ export default function CreateEpisodios(){
     }
     function handleChangeForm(e){
         e.preventDefault();
-            axios.post('http://localhost:3000/videos', campos).then((response) => {
+            axios.post('http://localhost:3000/categorias', campos).then((response) => {
                 setCampos(response.data)
                 alert('Produto Cadastrado!')
             })

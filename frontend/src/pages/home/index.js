@@ -31,7 +31,7 @@ export default function Home(){
                                 <img src={prod.url} alt=""/>
                             </div>
                             <div>
-                                <h3>{prod.name}</h3>
+                                <h3><a href={`episodio/`}>{prod.name}</a></h3>
                             </div>
                         </li>
                         ))}
